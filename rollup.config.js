@@ -2,20 +2,17 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript'; // Import the TypeScript plugin
+import css from 'rollup-plugin-css-only'
 import dts from 'rollup-plugin-dts';
+import postcss from 'rollup-plugin-postcss';
+
 
 export default [
-  // CJS and ESM bundles
   {
     input: 'src/index.ts',
     output: [
       {
-        file: 'dist/react-tripple-toggle.cjs.js',
-        format: 'cjs',
-        sourcemap: true,
-      },
-      {
-        file: 'dist/react-tripple-toggle.esm.js',
+        file: 'dist/react-triple-toggle.js',
         format: 'esm',
         sourcemap: true,
       },
@@ -23,6 +20,9 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
+      postcss({
+        extract: false
+      }),
       typescript({
         tsconfig: './tsconfig.json',
         declaration: false, // Don't emit declaration files for the JS bundles
@@ -34,13 +34,16 @@ export default [
   // Type definitions bundle
   {
     input: 'src/index.ts',
-    output: [{ file: 'dist/react-tripple-toggle.d.ts', format: 'esm' }],
+    output: [{ file: 'dist/react-triple-toggle.d.ts', format: 'esm' }],
     plugins: [
       typescript({
         tsconfig: './tsconfig.json',
         declaration: true,
         declarationDir: './dist',
         emitDeclarationOnly: true
+      }),
+      postcss({
+        extract: false
       }),
       dts()
     ],

@@ -1,5 +1,8 @@
 # react-triple-toggle
 
+[![Pipeline](https://github.com/gagan-bhullar-tech/react-triple-toggle/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/gagan-bhullar-tech/react-triple-toggle/actions/workflows/npm-publish.yml)
+
+
 A simple, accessible React component for a three-way toggle switch. Useful for settings, filters, or any UI where you need to select one of three options.
 
 ## Features

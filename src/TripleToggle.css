@@ -13,8 +13,8 @@ h4 {
   font-weight: 500;
 }
 
-.black-font {
-  color: black !important;
+.purple-font {
+  color: #3908c2 !important;
 }
 
 .main-container {
@@ -23,7 +23,7 @@ h4 {
   width: 250px;
   height: 50px;
   border-radius: 100px;
-  background-color: #4d4d4d;
+  background-color: #3908c2;
   position: absolute;
   top: 20%;
   left: 45%;

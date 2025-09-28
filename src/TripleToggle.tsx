@@ -44,7 +44,7 @@ const TripleToggle = (props: TripleToggleProps) => {
             />
             <label
                 className={`left-label ${
-                    switchPosition === "left" && "black-font"
+                    switchPosition === "left" && "purple-font"
                 }`}
                 htmlFor="left"
             >
@@ -61,7 +61,7 @@ const TripleToggle = (props: TripleToggleProps) => {
             />
             <label
                 className={`center-label ${
-                    switchPosition === "center" && "black-font"
+                    switchPosition === "center" && "purple-font"
                 }`}
                 htmlFor="center"
             >
@@ -78,7 +78,7 @@ const TripleToggle = (props: TripleToggleProps) => {
             />
             <label
                 className={`right-label ${
-                    switchPosition === "right" && "black-font"
+                    switchPosition === "right" && "purple-font"
                 }`}
                 htmlFor="right"
             >

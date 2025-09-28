@@ -12,7 +12,7 @@ export default [
     input: 'src/index.ts',
     output: [
       {
-        file: 'dist/react-triple-toggle.js',
+        file: 'dist/react-tripple-toggle.js',
         format: 'esm',
         sourcemap: true,
       },
@@ -34,7 +34,7 @@ export default [
   // Type definitions bundle
   {
     input: 'src/index.ts',
-    output: [{ file: 'dist/react-triple-toggle.d.ts', format: 'esm' }],
+    output: [{ file: 'dist/react-tripple-toggle.d.ts', format: 'esm' }],
     plugins: [
       typescript({
         tsconfig: './tsconfig.json',

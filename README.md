@@ -1,6 +1,6 @@
-# react-triple-toggle
+# react-tripple-toggle
 
-[![Pipeline](https://github.com/gagan-bhullar-tech/react-triple-toggle/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/gagan-bhullar-tech/react-triple-toggle/actions/workflows/npm-publish.yml)
+[![Pipeline](https://github.com/gagan-bhullar-tech/react-tripple-toggle/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/gagan-bhullar-tech/react-tripple-toggle/actions/workflows/npm-publish.yml)
 
 
 A simple, accessible React component for a three-way toggle switch. Useful for settings, filters, or any UI where you need to select one of three options.
@@ -14,15 +14,15 @@ A simple, accessible React component for a three-way toggle switch. Useful for s
 ## Installation
 
 ```bash
-npm install react-triple-toggle
+npm install react-tripple-toggle
 ```
 
 ## Usage
 
 ```tsx
 import React from 'react';
-import TripleToggle from 'react-triple-toggle';
-import 'react-triple-toggle/dist/react-triple-toggle.css';
+import TripleToggle from 'react-tripple-toggle';
+import 'react-tripple-toggle/dist/react-tripple-toggle.css';
 
 function App() {
   return (

@@ -1,9 +1,9 @@
 {
-  "name": "react-triple-toggle",
+  "name": "react-tripple-toggle",
   "version": "1.0.0",
-  "main": "dist/react-triple-toggle.js",
-  "module": "dist/react-triple-toggle.js",
-  "types": "dist/react-triple-toggle.d.ts",
+  "main": "dist/react-tripple-toggle.js",
+  "module": "dist/react-tripple-toggle.js",
+  "types": "dist/react-tripple-toggle.d.ts",
   "files": [
     "dist"
   ],
